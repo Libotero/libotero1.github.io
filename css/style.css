@@ -1,0 +1,667 @@
+*{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+} 
+
+:root{
+    --color-primario: #ffffff;
+    --color-segundario: #c3004d;
+    --color-terciario: #333333;
+}
+
+img{
+    width: 100%; 
+    height: auto;
+}
+
+body{
+    font-size: 1em;
+}
+
+.navegador {
+    display: flex;
+    background-color: var(--color-primario);
+    justify-content: center;
+
+}
+
+.logo {
+    width: 150px;
+    justify-content: flex-start;
+    margin-left: 9.3em;
+}
+
+.botones{
+    align-self: center;
+}
+
+.botones li {
+   display: inline;
+
+}
+
+.botones a {
+    padding: 0.3em;
+    margin-right: 0.6em;
+    margin-left: 0.6em;
+    color:var(--color-terciario);
+    font-weight: bold;
+ }
+
+.botones a:hover {
+     color: var(--color-segundario);
+    
+ }
+
+.sesion {
+    align-self: center;
+}
+
+.sesion a {
+    color: var(--color-primario);
+    font-weight: bold;
+    background-color: var(--color-segundario);
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 12px;
+    padding: 0.6em 1.25em;
+}
+
+.sesion a:hover {
+    color: var(--color-segundario);
+    background-color: var(--color-terciario);
+    
+ }
+
+.marca{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-segundario);
+    color: var(--color-primario);
+    justify-content: center;
+
+
+}
+
+.texto {
+    font-weight: bold;
+    text-align: left;
+    padding: 3.75em;
+    flex-basis: 50%;
+    margin-top: -1.06em;
+    margin-left: 5%;
+    margin-right: 0.31em;
+}
+
+h2{
+    font-size: 3.1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+
+}
+.logo2 {
+    width: 400px;
+    align-self: center;
+}
+
+.logotipos {
+    display: flex;
+    background-color: var(--color-primario);
+    color: var(--color-terciario);
+    justify-content: left;
+    
+}
+
+.texto2 {
+    font-weight: bold;
+    text-align: left;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+
+.alternativos {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-primario);
+    justify-content: center;
+
+}
+
+.logoalt1 {
+    width: 300px;
+    margin-right: 0.3em;
+}
+
+.logoalt2 {
+    width: 300px;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+}
+
+.logoalt3 {
+    width: 300px;
+    margin-left: 0.3em;
+}
+
+.descarga {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-primario);
+    justify-content: center;
+
+}
+
+.descarga1 {
+    width: 300px;
+    margin-right: 0.3em;
+    text-align: center;
+
+}
+
+.descarga2 {
+    width: 300px;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    text-align: center;
+}
+
+.descarga3 {
+    width: 300px;
+    margin-left:0.3em;
+    text-align: center;
+}
+
+.descarga1 a {
+    color: var(--color-primario);
+    font-weight: bold;
+    background-color: var(--color-segundario);
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 12px;
+    padding: 0.6em 1.25em;
+}
+
+.descarga1 a:hover {
+    color: var(--color-segundario);
+    background-color: var(--color-terciario);
+    
+ }
+
+ .descarga2 a {
+    color: var(--color-primario);
+    font-weight: bold;
+    background-color: var(--color-segundario);
+    text-decoration: none;
+    font-size: 1.12em;
+    border-radius: 12px;
+    padding: 0.6em 1.25em;
+}
+
+.descarga2 a:hover {
+    color: var(--color-segundario);
+    background-color: var(--color-terciario);
+    
+ }
+
+ .descarga3 a {
+    color: var(--color-primario);
+    font-weight: bold;
+    background-color:var(--color-segundario);
+    text-decoration: none;
+    font-size: 1.12em;
+    border-radius: 12px;
+    padding: 0.6em 1.25em;
+}
+
+.descarga3 a:hover {
+    color: var(--color-segundario);
+    background-color: var(--color-terciario);
+    
+ }
+
+.footer {
+    display: flex;
+    background-color: var(--color-terciario);
+    justify-content: center;
+    color: var(--color-primario);
+    height: 250px;
+    margin-top: 3.12em;
+    padding-left: 9%;
+    padding-right: 9%;
+
+}
+
+.logofoot {
+    width: 200px;
+    align-self: center;
+    margin-right: 2.5em;
+    margin-left: 7.5em;
+}
+
+.footer ul{
+    padding: 0em;
+    list-style: none;
+}
+
+.producto {
+    align-self: center;
+    margin-right: 3.1em;
+    margin-left: 3.1em;
+    line-height: 200%;
+
+}
+
+.producto a {
+    color: var(--color-primario);
+
+ }
+
+.producto a:hover {
+    color: var(--color-primario);
+    text-decoration: underline;
+    
+ }
+
+.compañia {
+    align-self: center;
+    margin-right: 3.1em;
+    margin-left: 3.1em;
+    line-height: 200%;
+
+}
+
+.compañia a {
+    color: var(--color-primario);
+
+ }
+
+.compañia a:hover {
+    color: var(--color-primario);
+    text-decoration: underline;
+    
+ }
+
+.recursos {
+    align-self: center;
+    margin-right: 3.1em;
+    margin-left: 3.1em;
+    line-height: 200%;
+
+}
+
+.recursos a {
+    color: var(--color-primario);
+
+ }
+
+.recursos a:hover {
+    color: var(--color-primario);
+    text-decoration: underline;
+    
+ }
+
+.politicas {
+    align-self: center;
+    margin-left: 3.1em;
+    line-height: 200%;
+}
+
+.politicas a {
+    color: var(--color-primario);
+
+ }
+
+.politicas a:hover {
+    color: var(--color-primario);
+    text-decoration: underline;
+    
+ }
+
+
+  @media (min-width: 768px) and (max-width: 1024px)  {
+
+    .navegador{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin: auto;  
+    }
+
+    .sesion {
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    .botones {
+        align-self: center;
+        margin-top: -24px;
+    }
+
+    .marca{
+        flex-wrap: wrap;
+        margin-top: 2em;
+    }
+
+    .texto{
+        margin-bottom: -2.5em;
+    }
+
+    .texto2{
+        font-weight: bold;
+        text-align: left;
+        padding: 3.75em;
+        padding-bottom: 2em;
+        flex-basis: 50%;
+        margin-top: -1.06em;
+        margin-left: 5%;
+        margin-right: 0.31em;
+    }
+
+    .logo2 {
+        width: 400px;
+        align-self: center;
+    }
+
+    .logotipos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }     
+
+    .alternativos{
+        flex-direction: column;
+        justify-content: center;
+    }     
+    
+    .logoalt1{
+        align-items: center;
+        margin-right: auto;
+    }
+
+    .logoalt2{
+        align-items: center;
+        margin: auto;
+    }
+
+    .logoalt3{
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .descarga{
+        flex-wrap: wrap;
+        }
+
+    .descarga1{
+        flex-wrap: wrap;
+        }
+    
+    .descarga2{
+        flex-wrap: wrap;
+        }
+        
+    .descarga3{
+        flex-wrap: wrap;
+        }
+    
+    .footer{
+        flex-wrap: wrap;
+        height: 300px;
+        width: 100%;
+    }
+
+    .logofoot{
+        margin: auto;
+    }
+    .producto{
+        margin: 1em;
+    }
+
+    .compañia{
+        margin: 1em;
+    }
+
+    .recursos{
+        margin: 1em;
+    }
+
+    .politicas{
+        margin: 1em;
+    }
+
+} 
+
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    
+    .navegador{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin: auto;  
+    }
+
+    .sesion {
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    .botones {
+        align-self: center;
+        margin-top: -24px;
+    }
+        .marca{
+            flex-wrap: wrap;
+            margin-top: 43px;
+            width: 100%;
+            }
+    
+        .texto{
+            margin-bottom: -2.5em;
+        }
+      
+
+        .logo2 {
+            width: 400px;
+            align-self: center;
+        }
+    
+        .logotipos{
+            flex-wrap: wrap;
+            justify-content: center;
+        }    
+
+        .texto2{
+            font-weight: bold;
+            text-align: left;
+            padding: 3.75em;
+            padding-bottom: 2em;
+            flex-basis: 50%;
+            margin-top: -1.06em;
+            margin-left: 5%;
+            margin-right: 0.31em;
+         }
+    
+        .alternativos{
+            flex-direction: column;
+            justify-content: center;
+             }     
+        
+        .logoalt1{
+            align-items: center;
+            margin-right: auto;
+        }
+    
+        .logoalt2{
+            align-items: center;
+            margin: auto;
+        }
+    
+        .logoalt3{
+            align-items: center;
+            margin-left: auto;
+        }
+    
+    
+        .descarga{
+            flex-wrap: wrap;
+            }
+    
+        .descarga1{
+            flex-wrap: wrap;
+            }
+        
+        .descarga2{
+            flex-wrap: wrap;
+            }
+            
+        .descarga3{
+            flex-wrap: wrap;
+            }
+        
+        .footer{
+            flex-wrap: wrap;
+            height: 400px;
+            width: 100%
+        }
+    
+        .logofoot{
+            margin: auto;
+        }
+        .producto{
+            margin: 1em;
+        }
+    
+        .compañia{
+            margin: 1em;
+        }
+    
+        .recursos{
+            margin: 1em;
+        }
+    
+        .politicas{
+            margin: 1em;
+        }
+      }
+      
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    
+    .container {
+        width: 100%;
+    }
+
+   .navegador{
+     flex-wrap: wrap;
+   }
+
+   .logo{
+   margin: auto;       
+   }
+
+   .sesion {
+       align-self: center;
+       margin-top: 2em;
+   }
+
+   .marca{
+       flex-wrap: wrap;
+       margin-top: 43px;
+       width: 100%;
+       }
+
+   .texto{
+       margin-bottom: -2.5em;
+   }
+ 
+
+   .logo2 {
+       width: 400px;
+       align-self: center;
+   }
+
+   .logotipos{
+       flex-wrap: wrap;
+       justify-content: center;
+   }    
+
+   .texto2{
+       font-weight: bold;
+       text-align: left;
+       padding: 3.75em;
+       padding-bottom: 2em;
+       flex-basis: 50%;
+       margin-top: -1.06em;
+       margin-left: 5%;
+       margin-right: 0.31em;
+    }
+
+   .alternativos{
+       flex-direction: column;
+       justify-content: center;
+        }     
+   
+   .logoalt1{
+       align-items: center;
+       margin-right: auto;
+   }
+
+   .logoalt2{
+       align-items: center;
+       margin: auto;
+   }
+
+   .logoalt3{
+       align-items: center;
+       margin-left: auto;
+   }
+
+
+   .descarga{
+       flex-wrap: wrap;
+       }
+
+   .descarga1{
+       flex-wrap: wrap;
+       }
+   
+   .descarga2{
+       flex-wrap: wrap;
+       }
+       
+   .descarga3{
+       flex-wrap: wrap;
+       }
+   
+   .footer{
+       flex-wrap: wrap;
+       height: 500px;
+       width: 100%
+   }
+
+   .logofoot{
+       margin: auto;
+   }
+   .producto{
+       margin: 1em;
+   }
+
+   .compañia{
+       margin: 1em;
+   }
+
+   .recursos{
+       margin: 1em;
+   }
+
+   .politicas{
+       margin: 1em;
+   }
+ }
